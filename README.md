@@ -13,3 +13,19 @@ are used up.
 This project is at its core a Java API used to manage the inventory of an at home bar.
 Completing this project will demonstrate my ability to create and use a REST API while 
 following procedures and practices used by proper software engineers.
+
+---
+
+## Key Features:
+
+* Add, Remove, and Update Drink Components (Spirits, Mixers,etc.)
+
+
+* Save commonly made mixed drinks to repeatedly remove specific amounts
+of the components that make up the drink
+
+
+* Detail what is purchases are needed to bring the bar back to set "in-stock" quantities
+ 
+
+* Find out the cost per unit of a given mixed drink based upon costs of components used in it
