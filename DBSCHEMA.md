@@ -20,9 +20,9 @@ Component {
     component_id int PK
     shelf_id int FK
     name string
-    bottles int
-    size double
-    cost double
+    quantity float
+    size float
+    cost float
 }
 
 Shelf {
@@ -33,14 +33,14 @@ Shelf {
 Mixer {
     mixer_id int PK
     name string
-    cost double
+    cost float
 }
 
 Mixer_Components {
     mixer_component_id int PK
     mixer_id int FK
     component_id int FK
-    component_amount double
+    component_amount float
 }
 
 
