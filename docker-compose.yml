@@ -1,0 +1,14 @@
+services:
+  mysql:
+    build: ./DB
+    environment:
+      - MYSQL_ROOT_PASSWORD=InventoryManagement
+      - MYSQL_DATABASE=BarInventory
+      - MYSQL_ROOT_HOST=%
+    volumes:
+      - inventoryDB:/var/lib/mysql
+    ports:
+      - '3306:3306'
+
+volumes:
+  inventoryDB:
