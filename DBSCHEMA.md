@@ -23,6 +23,7 @@ Component {
     quantity float
     size float
     cost float
+    stock_limit float
 }
 
 Shelf {
