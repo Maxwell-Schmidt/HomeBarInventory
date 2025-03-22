@@ -7,6 +7,7 @@ CREATE TABLE `BarInventory`.`Component` (
   `quantity` float NOT NULL,
   `size` float,
   `cost` float,
+  `stock_limit` float,
   PRIMARY KEY (`component_id`)
 );
 
