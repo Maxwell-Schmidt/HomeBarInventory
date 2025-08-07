@@ -108,7 +108,7 @@
         "code": 1,
         "msg": "Component created successfully",
         "data": {
-          "componentID": "int",
+          "componentId": "int",
           "shelfId": "int",
           "name": "string",
           "quantity": "float",
@@ -128,7 +128,7 @@
         "name": "string",
         "size": "float",
         "cost": "float",
-        "stock_limit": "float"
+        "stockLimit": "float"
       }
       ```
     - Response:
@@ -138,6 +138,7 @@
         "msg": "Component updated successfully",
         "data": {
           "componentId": "int",
+          "shelfId": "int",
           "name": "string",
           "quantity": "float",
           "size": "float",
@@ -163,6 +164,7 @@
         "msg": "Component updated successfully",
         "data": {
           "componentId": "int",
+          "shelfId": "int",
           "name": "string",
           "quantity": "float",
           "size": "float",
@@ -283,7 +285,7 @@
       {
         "components": [
           {
-            "componentID": "int"
+            "componentId": "int"
           }   
         ]
       }
@@ -370,7 +372,7 @@
         - HTTP Status: 201 Created on success, 400 Bad Request on creation failure.
 
 - **Update Shelf**
-    - Method: `PUT /shelf/{shelfID}`
+    - Method: `PUT /shelf/{shelfId}`
     - Request Body:
       ```json
       {
