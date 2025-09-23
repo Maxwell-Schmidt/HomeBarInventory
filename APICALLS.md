@@ -437,10 +437,6 @@
 
 - **Delete Shelf**
     - Method: `DELETE /shelf/{shelfId}`
-    - Request Header:
-      ```
-      Authorization: Bearer <JWT token>
-      ```
     - Response: HTTP Status 204 No Content on successful deletion.
 
 
