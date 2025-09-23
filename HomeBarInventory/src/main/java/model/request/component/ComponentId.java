@@ -1,4 +1,4 @@
-package model.request;
+package model.request.component;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,6 +9,6 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ComponentShelfChangeRequest {
-    private Integer shelfId;
+public class ComponentId {
+    private Integer componentId;
 }

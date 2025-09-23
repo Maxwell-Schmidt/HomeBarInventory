@@ -1,6 +1,6 @@
 package model.response;
 
-import model.request.ComponentId;
+import model.request.component.ComponentId;
 
 import java.math.BigDecimal;
 import java.util.List;

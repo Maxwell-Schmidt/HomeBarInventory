@@ -1,4 +1,4 @@
-package model.request;
+package model.request.shelf;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,6 +9,6 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ComponentId {
-    private Integer componentId;
+public class UpsertShelfRequest {
+    private String name;
 }

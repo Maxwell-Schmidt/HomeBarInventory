@@ -1,4 +1,4 @@
-package model.request;
+package model.request.component;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,10 +11,6 @@ import java.math.BigDecimal;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CreateComponentRequest {
-    private String name;
+public class UpdateComponentQuantityRequest {
     private BigDecimal quantity;
-    private BigDecimal size;
-    private BigDecimal cost;
-    private BigDecimal stockLimit;
 }
