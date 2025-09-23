@@ -1,4 +1,4 @@
-package model.request;
+package model.request.component;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -6,14 +6,15 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
-import java.util.List;
 
 @Builder
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CreateMixerRequest {
+public class CreateComponentRequest {
     private String name;
+    private BigDecimal quantity;
+    private BigDecimal size;
     private BigDecimal cost;
-    private List<ComponentId> components;
+    private BigDecimal stockLimit;
 }
