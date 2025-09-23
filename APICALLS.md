@@ -197,6 +197,23 @@
       ```
         - HTTP Status: 200 OK if mixer found, 404 Not Found if the mixer does not exist.
 
+- **Get Mixer by Name**
+    - Method: `GET /mixer/name/{name}`
+    - Response:
+      ```json
+      {
+        "code": 1,
+        "msg": "Mixer found",
+        "data": {
+            "mixerId": "int",
+            "name": "string",
+            "cost": "float"
+        }
+      }
+      ```
+        - HTTP Status: 200 OK if mixer found, 404 Not Found if the mixer does not exist.
+
+
 - **Get All Mixers**
     - Method: `GET /mixer`
     - Response:
